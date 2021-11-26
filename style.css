@@ -97,7 +97,7 @@ form ul {
 
 .form-control {
   position: relative;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .form-control img {
@@ -114,6 +114,7 @@ form ul {
   color: var(--red);
   text-align: right;
   margin-top: 0.5rem;
+  margin-bottom: 0;
   display: none;
 }
 
@@ -250,7 +251,6 @@ button:hover {
   }
 
   .pricing {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1.2rem 1rem;
   }
 }
