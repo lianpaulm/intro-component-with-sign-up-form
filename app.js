@@ -36,8 +36,10 @@ function checkInputs() {
     setErrorFor(email, 'E-mail cannot be empty');
   } else if (!isEmail(emailValue)) {
     setErrorFor(email, 'Looks like this is not an email');
+    email.style.color = 'hsl(0, 100%, 74%)';
   } else {
     removeErrorFor(email);
+    email.style.color = 'hsl(249, 10%, 26%)';
   }
 
   // password validation
